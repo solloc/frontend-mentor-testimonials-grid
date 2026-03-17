@@ -23,7 +23,6 @@ font-family: Barlow Semi Condensed, sans-serif;
 
 body {
     margin: 0;
-    /* padding: 2rem; */
     background-color: var(--clr-bg-grey);
     min-height: 100dvh;
     display: flex;
@@ -41,12 +40,13 @@ main {
 .testimonials {
     display: grid;
     gap: 2rem;
-    /* max-width: 70rem; */
 }
 
 section {
     padding: 2rem;
     border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem 0.5rem var(--clr-grey-200);
+    min-width: 12rem
 }
 
 .author {
